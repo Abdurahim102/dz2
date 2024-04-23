@@ -1,0 +1,29 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+overflow: hidden;
+background-color: rgb(97, 97, 97);
+}
+
+.snow{
+color: rgb(51, 255, 0);
+height: 106vh;
+animation: snow linear forwards;
+top: -30px;
+animation-delay: .1s;
+animation-timing-function: cubic-bezier(0.585, 0.735, 0.15, 0.56);
+position: absolute;
+}
+@keyframes snow {
+   to{
+    transform: translateY(200vh);
+    
+    transform: rotate(-300deg);
+    
+}
+}
+
